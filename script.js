@@ -1,6 +1,6 @@
   let contain = document.querySelector('.contain')
        
-        for(let i=0;i < 1000;i++){
+        for(let i=0;i < 900;i++){
             contain.innerHTML+=`<div class="star"></div>`
             let star = document.querySelectorAll(".star")
             star[i].style.left=`${Math.random() * window.innerWidth}px`
@@ -10,4 +10,12 @@
             star[i].style.height=`${size}`
             star[i].style.animationDelay=`${Math.random() * 10}s`
         }
+        let songs = new Audio('d.mp3')
+       function playMusic(){
+        songs.play()
+       }
+       playMusic()
+           
         
+    
+      
