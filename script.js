@@ -1,6 +1,6 @@
   let contain = document.querySelector('.contain')
        
-        for(let i=0;i < 500;i++){
+        for(let i=0;i < 100;i++){
             contain.innerHTML+=`<div class="star"></div>`
             let star = document.querySelectorAll(".star")
             star[i].style.left=`${Math.random() * window.innerWidth}px`
