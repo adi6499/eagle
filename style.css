@@ -15,11 +15,11 @@
 }
 .star{
     position: absolute;
-   
+    opacity: 0;
     border-radius:50%;
     background:white;
-    box-shadow: 0vmin 0vmin 10px white,
-    0vmin 0vmin 13px rgb(247, 255, 87);
+    box-shadow: 0vmin 0vmin 1vmin white,
+    0vmin 0vmin 30px rgb(247, 255, 87);
     animation:star 10s linear infinite;
 }
 @keyframes star{
@@ -31,4 +31,16 @@
         transform:translateZ(350vmin);
         opacity: 10;
     }
+}
+
+#clickSound{
+    width: 10vmin;
+    height: 5vmin;
+    background: black;
+    color:white;
+    border: .1vmin solid white;
+    position: absolute;
+    bottom:5%;
+    text-transform: uppercase;
+    z-index: 10000;
 }
