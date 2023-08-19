@@ -15,11 +15,11 @@
 }
 .star{
     position: absolute;
-    opacity: 0;
+   
     border-radius:50%;
     background:white;
-    box-shadow: 0vmin 0vmin 1vmin white,
-    0vmin 0vmin 30px rgb(247, 255, 87);
+    box-shadow: 0vmin 0vmin 10px white,
+    0vmin 0vmin 13px rgb(247, 255, 87);
     animation:star 10s linear infinite;
 }
 @keyframes star{
