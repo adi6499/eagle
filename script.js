@@ -11,6 +11,8 @@ for(let i=0;i < 400;i++){
     star[i].style.animationDelay=`${Math.random() * 10}s`
 }
 let songs = document.getElementById("songs")
+window.addEventListener("load",()=>{
+   songs.play()    
+})
 
-songs.play()
 
